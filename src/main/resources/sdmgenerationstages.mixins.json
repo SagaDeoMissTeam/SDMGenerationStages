@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sixik.sdmgenerationstages.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "sdmgenerationstages.refmap.json",
+  "mixins": [
+    "ChunkAccessMixin",
+    "LevelChunkSectionMixin",
+    "PlacedFeatureMixin",
+    "StructureManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
